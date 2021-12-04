@@ -1,0 +1,112 @@
+2021-12-04T09:17:11+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/pc_corner/wp-content/uploads/wp2static-processed-site): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php:30
+Stack trace:
+#0 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php(30): RecursiveDirectoryIterator->__construct('C:/xampp/htdocs...', 4096)
+#1 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\Controller.php(87): WP2StaticZip\ZipArchiver->generateArchive('C:/xampp/htdocs...')
+#2 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(303): WP2StaticZip\Controller->generateZip('C:/xampp/htdocs...', 'wp2static-addon...')
+#3 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(640): do_action('wp2static_deplo...', 'C:/xampp/htdocs...', 'wp2static-addon...')
+#6 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(730): WP2Static\Controller::wp2staticHeadless()
+#7 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(301): WP2Static\Controller::wp2staticRun()
+#8 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\pc_corner\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp2stat...')
+#11 {main}
+  thrown in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php on line 30
+
+2021-12-04T09:19:31+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/pc_corner/wp-content/uploads/wp2static-processed-site): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php:30
+Stack trace:
+#0 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php(30): RecursiveDirectoryIterator->__construct('C:/xampp/htdocs...', 4096)
+#1 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\Controller.php(87): WP2StaticZip\ZipArchiver->generateArchive('C:/xampp/htdocs...')
+#2 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(303): WP2StaticZip\Controller->generateZip('C:/xampp/htdocs...', 'wp2static-addon...')
+#3 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(640): do_action('wp2static_deplo...', 'C:/xampp/htdocs...', 'wp2static-addon...')
+#6 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(730): WP2Static\Controller::wp2staticHeadless()
+#7 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(301): WP2Static\Controller::wp2staticRun()
+#8 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\pc_corner\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp2stat...')
+#11 {main}
+  thrown in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php on line 30
+
+2021-12-04T09:20:53+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/pc_corner/wp-content/uploads/wp2static-processed-site): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php:30
+Stack trace:
+#0 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php(30): RecursiveDirectoryIterator->__construct('C:/xampp/htdocs...', 4096)
+#1 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\Controller.php(87): WP2StaticZip\ZipArchiver->generateArchive('C:/xampp/htdocs...')
+#2 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(303): WP2StaticZip\Controller->generateZip('C:/xampp/htdocs...', 'wp2static-addon...')
+#3 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(640): do_action('wp2static_deplo...', 'C:/xampp/htdocs...', 'wp2static-addon...')
+#6 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(730): WP2Static\Controller::wp2staticHeadless()
+#7 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(301): WP2Static\Controller::wp2staticRun()
+#8 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\pc_corner\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp2stat...')
+#11 {main}
+  thrown in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php on line 30
+
+2021-12-04T09:26:30+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/pc_corner/wp-content/uploads/wp2static-processed-site): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php:30
+Stack trace:
+#0 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php(30): RecursiveDirectoryIterator->__construct('C:/xampp/htdocs...', 4096)
+#1 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\Controller.php(87): WP2StaticZip\ZipArchiver->generateArchive('C:/xampp/htdocs...')
+#2 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(303): WP2StaticZip\Controller->generateZip('C:/xampp/htdocs...', 'wp2static-addon...')
+#3 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(640): do_action('wp2static_deplo...', 'C:/xampp/htdocs...', 'wp2static-addon...')
+#6 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(730): WP2Static\Controller::wp2staticHeadless()
+#7 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(301): WP2Static\Controller::wp2staticRun()
+#8 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\pc_corner\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp2stat...')
+#11 {main}
+  thrown in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php on line 30
+
+2021-12-04T09:46:01+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/pc_corner/wp-content/uploads/wp2static-processed-site): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php:30
+Stack trace:
+#0 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php(30): RecursiveDirectoryIterator->__construct('C:/xampp/htdocs...', 4096)
+#1 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\Controller.php(87): WP2StaticZip\ZipArchiver->generateArchive('C:/xampp/htdocs...')
+#2 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(303): WP2StaticZip\Controller->generateZip('C:/xampp/htdocs...', 'wp2static-addon...')
+#3 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(640): do_action('wp2static_deplo...', 'C:/xampp/htdocs...', 'wp2static-addon...')
+#6 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(730): WP2Static\Controller::wp2staticHeadless()
+#7 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(301): WP2Static\Controller::wp2staticRun()
+#8 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\pc_corner\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp2stat...')
+#11 {main}
+  thrown in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php on line 30
+
+2021-12-04T09:57:14+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/pc_corner/wp-content/uploads/wp2static-processed-site): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php:30
+Stack trace:
+#0 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php(30): RecursiveDirectoryIterator->__construct('C:/xampp/htdocs...', 4096)
+#1 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\Controller.php(87): WP2StaticZip\ZipArchiver->generateArchive('C:/xampp/htdocs...')
+#2 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(303): WP2StaticZip\Controller->generateZip('C:/xampp/htdocs...', 'wp2static-addon...')
+#3 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(640): do_action('wp2static_deplo...', 'C:/xampp/htdocs...', 'wp2static-addon...')
+#6 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(730): WP2Static\Controller::wp2staticHeadless()
+#7 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(301): WP2Static\Controller::wp2staticRun()
+#8 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\pc_corner\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp2stat...')
+#11 {main}
+  thrown in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php on line 30
+
+2021-12-04T10:04:16+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:/xampp/htdocs/pc_corner/wp-content/uploads/wp2static-processed-site): The system cannot find the file specifi (code: 2) in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php:30
+Stack trace:
+#0 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php(30): RecursiveDirectoryIterator->__construct('C:/xampp/htdocs...', 4096)
+#1 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\Controller.php(87): WP2StaticZip\ZipArchiver->generateArchive('C:/xampp/htdocs...')
+#2 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(303): WP2StaticZip\Controller->generateZip('C:/xampp/htdocs...', 'wp2static-addon...')
+#3 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(640): do_action('wp2static_deplo...', 'C:/xampp/htdocs...', 'wp2static-addon...')
+#6 C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static\src\Controller.php(730): WP2Static\Controller::wp2staticHeadless()
+#7 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(301): WP2Static\Controller::wp2staticRun()
+#8 C:\xampp\htdocs\pc_corner\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\pc_corner\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\pc_corner\wp-admin\admin-ajax.php(187): do_action('wp_ajax_wp2stat...')
+#11 {main}
+  thrown in C:\xampp\htdocs\pc_corner\wp-content\plugins\wp2static-addon-zip\src\ZipArchiver.php on line 30
+
